@@ -1,0 +1,42 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 28BYJ-48
+D 5-wire unipolar stepper motor
+K unipolar stepper motor
+F https://download.mikroe.com/documents/datasheets/step-motor-5v-28byj48-datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega328P-PU
+D High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16
+K darlington transistor array
+F https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf
+$ENDCMP
+#
+$CMP Barrel_Jack_MountingPin
+D DC Barrel Jack with a mounting pin
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
+$CMP I2C
+D I2C bus
+$ENDCMP
+#
+$CMP Limit_Switch
+D Momentary Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
+F https://static.chipdip.ru/lib/911/DOC002911480.pdf
+$ENDCMP
+#
+$CMP ProgramPort
+D Port used to program the ATmega328P
+F ~
+$ENDCMP
+#
+$CMP ULN2003
+D High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16
+K darlington transistor array
+F http://www.ti.com/lit/ds/symlink/uln2003a.pdf
+$ENDCMP
+#
+#End Doc Library
