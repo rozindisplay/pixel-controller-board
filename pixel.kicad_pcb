@@ -185,7 +185,7 @@
     (add_net "Net-(M4-Pad4)")
   )
 
-  (module pixle:MountingHole_M3 (layer F.Cu) (tedit 60F33399) (tstamp 60F3C26F)
+  (module pixel:MountingHole_M3 (layer F.Cu) (tedit 60F33399) (tstamp 60F3C26F)
     (at 107.85 121.35)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
@@ -206,7 +206,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module pixle:MountingHole_M3 (layer F.Cu) (tedit 60F33399) (tstamp 60F3C1E9)
+  (module pixel:MountingHole_M3 (layer F.Cu) (tedit 60F33399) (tstamp 60F3C1E9)
     (at 64.15 121.35)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
@@ -227,7 +227,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module pixle:MountingHole_M3 (layer F.Cu) (tedit 60F33399) (tstamp 60F3BD39)
+  (module pixel:MountingHole_M3 (layer F.Cu) (tedit 60F33399) (tstamp 60F3BD39)
     (at 99.2 75.35)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
@@ -248,7 +248,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module pixle:MountingHole_M3 (layer F.Cu) (tedit 60F33399) (tstamp 60F3BAD3)
+  (module pixel:MountingHole_M3 (layer F.Cu) (tedit 60F33399) (tstamp 60F3BAD3)
     (at 64.15 75.35)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
@@ -504,7 +504,7 @@
     )
   )
 
-  (module pixle:SW_PUSH_6mm_2pin (layer F.Cu) (tedit 60DF82A3) (tstamp 60E38C4A)
+  (module pixel:SW_PUSH_6mm_2pin (layer F.Cu) (tedit 60DF82A3) (tstamp 60E38C4A)
     (at 119 123.25 180)
     (descr https://www.omron.com/ecb/products/pdf/en-b3f.pdf)
     (tags "tact sw push 6mm")

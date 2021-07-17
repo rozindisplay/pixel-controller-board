@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pixle:ULN2003 U3
+L pixel:ULN2003 U3
 U 1 1 60D72B6F
 P 8150 4300
 F 0 "U3" H 8150 4967 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 8250 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pixle:ULN2003 U2
+L pixel:ULN2003 U2
 U 1 1 60DD8EF7
 P 8150 2050
 F 0 "U2" H 8150 2717 50  0000 C CNN
@@ -92,7 +92,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 3750 5650 3750
 $Comp
-L pixle:ULN2003 U1
+L pixel:ULN2003 U1
 U 1 1 60D75900
 P 3100 4100
 F 0 "U1" H 3100 3233 50  0000 C CNN
@@ -103,7 +103,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 3200 3900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L pixle:28BYJ-48 M2
+L pixel:28BYJ-48 M2
 U 1 1 60DF70FB
 P 9450 1700
 F 0 "M2" H 9529 1721 50  0000 L CNN
@@ -114,7 +114,7 @@ F 3 "https://download.mikroe.com/documents/datasheets/step-motor-5v-28byj48-data
 	1    0    0    -1  
 $EndComp
 $Comp
-L pixle:28BYJ-48 M3
+L pixel:28BYJ-48 M3
 U 1 1 60DF8B5A
 P 9450 3300
 F 0 "M3" H 9529 3321 50  0000 L CNN
@@ -125,7 +125,7 @@ F 3 "https://download.mikroe.com/documents/datasheets/step-motor-5v-28byj48-data
 	1    0    0    -1  
 $EndComp
 $Comp
-L pixle:28BYJ-48 M4
+L pixel:28BYJ-48 M4
 U 1 1 60DF9646
 P 9450 4950
 F 0 "M4" H 9529 4971 50  0000 L CNN
@@ -216,7 +216,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 4050 2050 4050
 $Comp
-L pixle:28BYJ-48 M1
+L pixel:28BYJ-48 M1
 U 1 1 60DF9A92
 P 2000 3750
 F 0 "M1" H 2100 3650 50  0000 C CNN
@@ -411,7 +411,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 2400 7750 2400
 $Comp
-L pixle:ATmega328P-PU A1
+L pixel:ATmega328P-PU A1
 U 1 1 60D41184
 P 6400 3000
 F 0 "A1" H 6350 4150 50  0000 R CNN
@@ -509,7 +509,7 @@ Connection ~ 5500 3650
 Wire Wire Line
 	5500 3650 4450 3650
 $Comp
-L pixle:Limit_Switch LS2
+L pixel:Limit_Switch LS2
 U 1 1 60F4A77E
 P 9950 2500
 F 0 "LS2" H 9950 2785 50  0000 C CNN
@@ -520,7 +520,7 @@ F 3 "https://static.chipdip.ru/lib/911/DOC002911480.pdf" H 9950 2500 50  0001 C 
 	1    0    0    -1  
 $EndComp
 $Comp
-L pixle:Limit_Switch LS3
+L pixel:Limit_Switch LS3
 U 1 1 60F4C901
 P 9950 4200
 F 0 "LS3" H 9950 4485 50  0000 C CNN
@@ -531,7 +531,7 @@ F 3 "https://static.chipdip.ru/lib/911/DOC002911480.pdf" H 9950 4200 50  0001 C 
 	1    0    0    -1  
 $EndComp
 $Comp
-L pixle:Limit_Switch LS4
+L pixel:Limit_Switch LS4
 U 1 1 60F4CD92
 P 9950 5650
 F 0 "LS4" H 9950 5935 50  0000 C CNN
@@ -632,7 +632,7 @@ Wire Wire Line
 	1500 4700 1500 3000
 Connection ~ 1500 3000
 $Comp
-L pixle:ProgramPort PP1
+L pixel:ProgramPort PP1
 U 1 1 60E0B971
 P 4800 2100
 F 0 "PP1" H 5050 2450 50  0000 L CNN
@@ -700,7 +700,7 @@ U 1 1 60E76AA0
 P 6300 1500
 F 0 "SW1" H 6300 1785 50  0000 C CNN
 F 1 "PUSH_RESET" H 6300 1694 50  0000 C CNN
-F 2 "pixle:SW_PUSH_6mm_2pin" H 6300 1700 50  0001 C CNN
+F 2 "pixel:SW_PUSH_6mm_2pin" H 6300 1700 50  0001 C CNN
 F 3 "~" H 6300 1700 50  0001 C CNN
 	1    6300 1500
 	1    0    0    -1  
@@ -747,7 +747,7 @@ F 3 "" H 5750 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pixle:I2C I2C_2
+L pixel:I2C I2C_2
 U 1 1 60EB02D7
 P 7500 950
 F 0 "I2C_2" H 7600 1300 50  0000 R CNN
@@ -758,7 +758,7 @@ F 3 "" H 7500 950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L pixle:I2C I2C_1
+L pixel:I2C I2C_1
 U 1 1 60EB0F46
 P 7050 950
 F 0 "I2C_1" H 7150 1300 50  0000 R CNN
@@ -785,7 +785,7 @@ Wire Wire Line
 	6800 2250 6750 2250
 Connection ~ 7000 1150
 $Comp
-L pixle:Barrel_Jack_MountingPin J1
+L pixel:Barrel_Jack_MountingPin J1
 U 1 1 60F94B90
 P 1700 1600
 F 0 "J1" H 1757 1917 50  0000 C CNN
@@ -836,7 +836,7 @@ F 3 "" H 1900 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pixle:Limit_Switch LS1
+L pixel:Limit_Switch LS1
 U 1 1 60F49BCC
 P 1700 3100
 F 0 "LS1" H 1700 2775 50  0000 C CNN
